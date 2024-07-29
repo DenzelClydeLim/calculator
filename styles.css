@@ -1,0 +1,68 @@
+body {
+    font-family: Zain, Geneva, Tahoma, sans-serif;
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#displaySect {
+    width: 300px;
+    font-size: 2em;
+    text-align: right;
+    padding: 75px 10px 0;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+#displayNum {
+    font-size: 1.5em
+}
+
+#displayResult {
+    color: darkgrey
+}
+
+#inputSect {
+    width: 300px;
+    padding: 10px;
+    background-color: black;
+}
+
+.rowBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.indivBtn {
+    margin-top: 5px;
+    height: 80px;
+    background-color: gray;
+    color: white;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+    font-size: medium;
+}
+
+/* 
+.rowBtn>button:hover {
+    background-color: darkgray;
+} */
+
+.highlightOperator {
+    margin-top: 5px;
+    height: 80px;
+    color: white;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: orange;
+}
